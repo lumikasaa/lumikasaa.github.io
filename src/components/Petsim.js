@@ -42,7 +42,7 @@ display:'flex',height:40, width:40, margin: 'auto',
 borderStyle: "solid",
 borderColor: "black",
 backgroundColor: "#1e90ff",
-boxShadow: "0px 0px 20px 20px #4169e1"
+boxShadow: "0px 0px 20px 10px #4169e1"
 }
 
 const styleHit = {
