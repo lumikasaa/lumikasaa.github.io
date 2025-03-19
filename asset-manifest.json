@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/maple/static/js/main.0b1dcedf.js",
-    "index.html": "/maple/index.html",
-    "main.0b1dcedf.js.map": "/maple/static/js/main.0b1dcedf.js.map"
+    "main.js": "/static/js/main.0b1dcedf.js",
+    "index.html": "/index.html",
+    "main.0b1dcedf.js.map": "/static/js/main.0b1dcedf.js.map"
   },
   "entrypoints": [
     "static/js/main.0b1dcedf.js"
