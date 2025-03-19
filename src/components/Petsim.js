@@ -76,10 +76,13 @@ const Petsim = () => {
         Roll 11
       </ColorButton>
       </div>
-      <div id="rollresult">
+      <div id="rollresult" style={{maxWidth:"1200px",justifyContent: "center",
+      alignItems: "center", textAlign: "center", margin: "auto"}}>
           {images.length >= 1 && (
             <Box>
-              <Grid container spacing={{xs: 2, md: 3}} columns={{xs: 4, sm: 8, md: 12}}>
+              <Grid container style={{maxWidth:"1500px",justifyContent: "center",
+      alignItems: "center", textAlign: "center", margin: "auto"}}
+              spacing={{xs: 2, md: 3}} columns={{xs: 4, sm: 8, md: 12}}>
                 {images.map((item, i) => (
               <Grid size={1}  key={i}>
                 <Item style={(item[3] == "Permanent" && item[2] != "Concentrated Premium Water of Life" ? styleRare : item[4] == "Petite Luna" ? styleHit : styleBasic)}>
