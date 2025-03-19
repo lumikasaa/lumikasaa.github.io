@@ -1,8 +1,8 @@
 import Petsim from './components/Petsim'
-import Home from './components/Home'
-import {
-  BrowserRouter as Router, Routes, Route, Link
-} from 'react-router-dom'
+// import Home from './components/Home'
+// import {
+//   BrowserRouter as Router, Routes, Route, Link
+// } from 'react-router-dom'
 
 
 const footerStyle = {
@@ -17,21 +17,28 @@ const footerStyle = {
 const App = () => {
 
   return (
-    <Router>
+    <div>
+    {/* // <Router> */}
       {/* <div>
         <Link to="/">home</Link>
         <Link to="/petsim">petsim</Link>
       </div> */}
-
+{/* 
       <Routes>
         <Route path="/petsim" element={<Petsim />} />
         <Route path="/" element={<Home />} />
-      </Routes>
+      </Routes> */}
+
+      <div>
+        <Petsim></Petsim>
+      </div>
 
       <div style={footerStyle}>
         <i>Lumikasa 2025</i>
       </div>
-    </Router>
+
+    {/* </Router> */}
+    </div>
   );
 }
 
